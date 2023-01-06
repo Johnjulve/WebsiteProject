@@ -1,0 +1,124 @@
+.btn {
+  border: none;
+  background-color: inherit;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-block;
+  text-align: center;
+}
+
+.header {
+  border-radius: 10px;
+  padding: 5px;
+  background: #55828B;
+  color: white;
+  font-size: 16px;
+  position: relative;
+  height: 80px;
+  min-width: 0%;
+  max-width: 100%;
+}
+.head {
+  position: absolute;
+  top: -40px;
+  left: 10px;
+  text-align: left;
+  font-size: 52px;
+
+}
+body {
+  background-image: url(background_pic.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.home {
+  align-items: flex-end;
+  background: #C9E4CA;
+  border-radius: 25px;
+  position: absolute;
+  right: 300px;
+  top: 20px;
+}
+.home:hover {
+  align-items: flex-end;
+  background-color: #55828B;
+  border: solid 1px;
+  border-radius: 25px;
+  color: white;
+  position: absolute;
+  right: 300px;
+  top: 20px;
+}
+.about {
+  align-items: flex-end;
+  background: #C9E4CA;
+  border-radius: 25px;
+  position: absolute;
+  right: 160px;
+  top: 20px;
+}
+.about:hover {
+  align-items: flex-end;
+  background-color: #55828B;
+  border-radius: 25px;
+  border: solid 1px;
+  color: white;
+  position: absolute;
+  right: 160px;
+  top: 20px;
+}
+
+.profilepic {
+  border-radius: 50%;
+  border: solid 7px;
+  border-color: #364958;
+  position: absolute;
+  right: 20px;
+  top: 25px;
+}
+
+.profilepic:hover {
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  border: solid 7px;
+  border-color: #364958;
+  position: absolute;
+  right: 20px;
+  top: 25px;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 400px;
+}
+.card {
+  height: 375px;
+  width: 235px;
+  padding: 20px 35px;
+  background: #364958;
+  border-radius: 20px;
+  margin: 15px;
+  position: relative;
+  overflow: auto;
+  top: 40px;
+}
+.card::-webkit-scrollbar {
+  display: none;
+}
+
+.card h5{
+  color: white;
+  font-size: 22px;
+  text-align: center;
+}
+.pra p {
+  font-size: 14px;
+  color: #55828B;
+  line-height: 27px;
+  text-align: justify;
+}
